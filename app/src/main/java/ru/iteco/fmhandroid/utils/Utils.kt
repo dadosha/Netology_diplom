@@ -6,6 +6,7 @@ import android.net.NetworkCapabilities
 import android.os.Build
 import android.widget.EditText
 import retrofit2.Response
+import ru.iteco.fmhandroid.EspressoIdlingResources
 import ru.iteco.fmhandroid.dto.User
 import ru.iteco.fmhandroid.exceptions.*
 import java.io.IOException
@@ -99,19 +100,29 @@ object Utils {
         onSuccess: suspend (body: T) -> R,
         onFailure: (response: Response<T>) -> R = { throw ApiException(it.code(), it.message()) }
     ): R {
-        try {
+        EspressoIdlingResources.increment()
+
+        return try {
             val response = request()
-            if (!response.isSuccessful) return onFailure(response)
-            val body =
-                response.body() ?: throw ApiException(response.code(), response.message())
-            return onSuccess(body)
+            if (!response.isSuccessful) {
+                EspressoIdlingResources.decrement() 
+                return onFailure(response)
+            }
+            val body = response.body() ?: throw ApiException(response.code(), response.message())
+            val result = onSuccess(body)
+            EspressoIdlingResources.decrement()
+            result
         } catch (e: ConnectException) {
+            EspressoIdlingResources.decrement() 
             throw LostConnectException
         } catch (e: IOException) {
+            EspressoIdlingResources.decrement() 
             throw ServerException
         } catch (e: AuthorizationException) {
+            EspressoIdlingResources.decrement() 
             throw AuthorizationException
         } catch (e: Exception) {
+            EspressoIdlingResources.decrement() 
             throw UnknownException
         }
     }
