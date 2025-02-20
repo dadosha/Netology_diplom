@@ -9,17 +9,13 @@ import static androidx.test.espresso.matcher.ViewMatchers.withText;
 
 import ru.iteco.fmhandroid.R;
 
-public class MainPage {
-    private static final int ALL_NEWS_BUTTON = R.id.all_news_text_view;
+public class NewsPage {
 
-    public void clickAllNews() {
-        onView(withId(ALL_NEWS_BUTTON))
-                .check(matches(isDisplayed()))
-                .perform(click());
-    }
+    private static final int NEWS_TITLE_TEXT = R.string.news;
 
-    public void seeAllNews() {
-        onView(withId(ALL_NEWS_BUTTON))
+
+    public void seeNewsTitle() {
+        onView(withText(NEWS_TITLE_TEXT))
                 .check(matches(isDisplayed()));
     }
 }

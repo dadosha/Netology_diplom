@@ -73,7 +73,7 @@ class AuthFragment : Fragment(R.layout.fragment_auth) {
                 Toast.makeText(
                     requireContext(),
                     R.string.empty_login_or_password,
-                    Toast.LENGTH_LONG
+                    Toast.LENGTH_SHORT
                 ).show()
             } else {
                 viewModel.login(
