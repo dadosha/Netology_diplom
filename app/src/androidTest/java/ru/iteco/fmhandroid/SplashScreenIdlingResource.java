@@ -2,8 +2,8 @@ package ru.iteco.fmhandroid;
 
 import android.app.Activity;
 import android.view.View;
+
 import androidx.test.espresso.IdlingResource;
-import androidx.test.espresso.util.TreeIterables;
 
 public class SplashScreenIdlingResource implements IdlingResource {
     private ResourceCallback resourceCallback;

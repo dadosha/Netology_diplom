@@ -1,0 +1,117 @@
+{
+    "name": "Проверка наличия описания в карточке новости",
+    "start": 1741551175875,
+    "stop": 1741551183705,
+    "stage": "finished",
+    "description": "Выбирает случайную карточку новости и проверяет, что у неё есть описание.",
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+        {
+            "name": "Проверяем залогинены ли сейчас",
+            "start": 1741551176955,
+            "stop": 1741551176955,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Открытие страницы миссии приложения",
+            "start": 1741551181977,
+            "stop": 1741551181977,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Раскрываем описание миссии",
+            "start": 1741551182613,
+            "stop": 1741551182614,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Проверяем наличие описания у миссии",
+            "start": 1741551183016,
+            "stop": 1741551183016,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        }
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "7eb369a1-f3ea-4b78-afe3-3b11165c70a3",
+    "historyId": "7cdc1d68d031b920b71ee6576d12f04d",
+    "fullName": "ru.iteco.fmhandroid.ui.OurMissionPageTest.missionCardHaveDescription",
+    "labels": [
+        {
+            "name": "package",
+            "value": "ru.iteco.fmhandroid.ui"
+        },
+        {
+            "name": "testClass",
+            "value": "ru.iteco.fmhandroid.ui.OurMissionPageTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "missionCardHaveDescription"
+        },
+        {
+            "name": "suite",
+            "value": "Тесты страницы миссии"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(649)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        }
+    ]
+}

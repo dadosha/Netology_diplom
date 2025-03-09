@@ -11,7 +11,6 @@ import static org.hamcrest.Matchers.isIn;
 import androidx.test.espresso.ViewInteraction;
 import androidx.test.ext.junit.rules.ActivityScenarioRule;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
-import androidx.test.filters.LargeTest;
 
 import org.junit.Rule;
 import org.junit.Test;
@@ -20,11 +19,14 @@ import org.junit.runner.RunWith;
 import java.util.Arrays;
 import java.util.List;
 
+import io.qameta.allure.kotlin.Allure;
+import io.qameta.allure.kotlin.Description;
+import io.qameta.allure.kotlin.junit4.DisplayName;
 import ru.iteco.fmhandroid.R;
-import ru.iteco.fmhandroid.SplashScreenIdlingResource;
 
-@LargeTest
+
 @RunWith(AndroidJUnit4.class)
+@DisplayName("Тест экрана запуска приложения")
 public class SplashScreenTest {
 
     @Rule
@@ -48,9 +50,13 @@ public class SplashScreenTest {
     );
 
     @Test
+    @DisplayName("Проверка отображения экрана запуска")
+    @Description("Проверяем, что экран загрузки отображается и содержит один из ожидаемых текстов.")
     public void splashScreenTest() {
+        Allure.step("Находим поле текстов на экране заставки");
         ViewInteraction splashScreenText = onView(withId(R.id.splashscreen_text_view));
         splashScreenText.check(matches(isDisplayed()));
+        Allure.step("Проверяем, что текст в поле один из заложенных");
         splashScreenText.check(matches(withText(isIn(splashscreenTexts))));
     }
 }

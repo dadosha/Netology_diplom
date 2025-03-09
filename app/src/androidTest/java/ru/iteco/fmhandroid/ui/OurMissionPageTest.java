@@ -1,36 +1,35 @@
 package ru.iteco.fmhandroid.ui;
 
-import static androidx.test.espresso.intent.matcher.IntentMatchers.hasAction;
-import static androidx.test.espresso.intent.matcher.IntentMatchers.hasData;
-
-import android.content.Intent;
-
 import androidx.test.espresso.IdlingRegistry;
-import androidx.test.espresso.intent.Intents;
 import androidx.test.ext.junit.rules.ActivityScenarioRule;
+import androidx.test.ext.junit.runners.AndroidJUnit4;
 
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Rule;
 import org.junit.Test;
+import org.junit.runner.RunWith;
 
+import java.util.Random;
+
+import io.qameta.allure.kotlin.Description;
+import io.qameta.allure.kotlin.junit4.DisplayName;
 import ru.iteco.fmhandroid.EspressoIdlingResources;
 import ru.iteco.fmhandroid.R;
 import ru.iteco.fmhandroid.SplashScreenIdlingResource;
-import ru.iteco.fmhandroid.pages.AboutPages;
 import ru.iteco.fmhandroid.pages.LoginPage;
-import ru.iteco.fmhandroid.pages.MainPage;
-import ru.iteco.fmhandroid.pages.NewsPage;
+import ru.iteco.fmhandroid.pages.OurMissionPage;
 import ru.iteco.fmhandroid.pages.TopCustomBar;
 
-public class AboutScreenTest {
+@RunWith(AndroidJUnit4.class)
+@DisplayName("Тесты страницы миссии")
+public class OurMissionPageTest {
     @Rule
     public ActivityScenarioRule<AppActivity> mActivityScenarioRule =
             new ActivityScenarioRule<>(AppActivity.class);
 
     private SplashScreenIdlingResource splashIdlingResource;
-    private TopCustomBar topCustomBar;
-    private AboutPages aboutPages;
+    private OurMissionPage ourMissionPage;
 
     @Before
     public void setUp() {
@@ -39,12 +38,13 @@ public class AboutScreenTest {
             IdlingRegistry.getInstance().register(splashIdlingResource);
         });
         IdlingRegistry.getInstance().register(EspressoIdlingResources.idlingResource);
-        topCustomBar = new TopCustomBar();
-        aboutPages = new AboutPages();
+        ourMissionPage = new OurMissionPage();
+        TopCustomBar topCustomBar = new TopCustomBar();
         if (!topCustomBar.isLoginNow()) {
             LoginPage loginPage = new LoginPage();
             loginPage.login("login2", "password2");
         }
+        topCustomBar.openOurMissionPage();
     }
 
     @After
@@ -56,22 +56,18 @@ public class AboutScreenTest {
     }
 
     @Test
-    public void clickPrivacyPolicy() {
-        topCustomBar.openAboutPage();
-        Intents.init();
-        aboutPages.clickPrivacyPolicyLink();
-        Intents.intended(hasData(aboutPages.getPrivacyPolicyValueLink()));
-        Intents.intended(hasAction(Intent.ACTION_VIEW));
-        Intents.release();
+    @DisplayName("Проверка наличия заголовка в карточке миссии")
+    @Description("Выбирает случайную карточку миссии и проверяет, что у неё есть заголовок.")
+    public void missionCardHaveTitle() {
+        int randomPosition = new Random().nextInt(ourMissionPage.getRecyclerViewSize());
+        ourMissionPage.missionHasTitle(randomPosition);
     }
 
     @Test
-    public void clickTermsOfUse() {
-        topCustomBar.openAboutPage();
-        Intents.init();
-        aboutPages.clickTermsOfUse();
-        Intents.intended(hasData(aboutPages.getTermsOfUseValueLink()));
-        Intents.intended(hasAction(Intent.ACTION_VIEW));
-        Intents.release();
+    @DisplayName("Проверка наличия описания в карточке новости")
+    @Description("Выбирает случайную карточку новости и проверяет, что у неё есть описание.")
+    public void missionCardHaveDescription() {
+        int randomPosition = new Random().nextInt(ourMissionPage.getRecyclerViewSize());
+        ourMissionPage.missionHasDescription(randomPosition);
     }
 }

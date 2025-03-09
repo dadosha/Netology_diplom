@@ -1,12 +1,10 @@
 plugins {
     id 'com.android.application'
-    id 'com.google.gms.google-services'
     id 'kotlin-android'
     id 'kotlin-kapt'
     id 'dagger.hilt.android.plugin'
     id 'kotlin-parcelize'
     id 'androidx.navigation.safeargs.kotlin'
-    id 'com.google.firebase.crashlytics'
 }
 
 android {
@@ -48,6 +46,7 @@ android {
 }
 
 dependencies {
+    androidTestImplementation 'androidx.test.espresso:espresso-contrib:3.7.0-alpha01'
     def retrofit_version = "2.9.0"
     def retrofit_gson_version = "2.9.0"
     def okhttp_logging_version = "4.9.2"
@@ -96,7 +95,7 @@ dependencies {
     implementation 'androidx.test.espresso:espresso-idling-resource:3.5.1'
 
     // Espresso Core
-    androidTestImplementation "androidx.test.espresso:espresso-core:$espresso_version"
+    androidTestImplementation "androidx.test.espresso:espresso-core:3.7.0-alpha01"
 
     // Espresso Intents
     androidTestImplementation "androidx.test.espresso:espresso-intents:$espresso_version"
