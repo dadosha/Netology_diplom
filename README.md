@@ -6,17 +6,20 @@
 3. [Тест-кейсы](docs/Case.xlsx)
 
 ## Результаты
-1. Allure отчеты [zip-файл](docs/allure-result.zip), [allure-result](allure-results) - запуск результатов из allure отчета - allure serve allure-results
+1. Allure отчеты [zip-файл](docs/allure-result.zip), [allure-result](allure-results) - запуск результатов из allure отчета - ```allure serve allure-results```
 2. Сравнение времени выполнения - [Result.md](docs/Result.md)
 
 ## Запуск тестов
 1. Запуск adb командой при одном подключенном устройстве
+```
 adb shell am instrument -w -m -e package ru.iteco.fmhandroid.ui -e debug false ru.iteco.fmhandroid.test/androidx.test.runner.AndroidJUnitRunner
+```
 2. Запуск тестов при нескольких запущенных устройствах
+```
 for device in $(adb devices | grep "device$" | cut -f1); do
    adb -s $device shell am instrument -w -m -e package ru.iteco.fmhandroid.ui -e debug false ru.iteco.fmhandroid.test/androidx.test.runner.AndroidJUnitRunner &
 done
-
+```
 ## Правила именования в проекте (*для разработчиков*):
 
 Имена пакетов всегда в нижнем регистре и без подчеркивания. Использование многословных имен обычно не рекомендуется, но если действительно нужно использовать несколько слов, можно просто объединить их вместе или использовать camelCase.
