@@ -1,0 +1,149 @@
+{
+    "name": "Открытие страницы добавления новости",
+    "start": 1742751518805,
+    "stop": 1742751527541,
+    "stage": "finished",
+    "description": "Проверяем, что кнопка добавления новости работает и открывает нужную страницу.",
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+        {
+            "name": "Проверяем залогинены ли сейчас",
+            "start": 1742751519518,
+            "stop": 1742751519518,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Открываем выпадающий список",
+            "start": 1742751524534,
+            "stop": 1742751524534,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Нажимаем кнопку открытия страницы всех новостей",
+            "start": 1742751524990,
+            "stop": 1742751524990,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Открываем страницу управления новостями",
+            "start": 1742751525685,
+            "stop": 1742751525685,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Открываем страницу создания новостей",
+            "start": 1742751526380,
+            "stop": 1742751526380,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Проверяем наличие заголовка создания новости",
+            "start": 1742751527041,
+            "stop": 1742751527041,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        }
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "e5560e3a-1f01-4869-a596-32d643d957d2",
+    "historyId": "82b44d2755c01d9eaf764e738677d86d",
+    "fullName": "ru.iteco.fmhandroid.ui.EditNewsPageTest.openAddNews",
+    "labels": [
+        {
+            "name": "package",
+            "value": "ru.iteco.fmhandroid.ui"
+        },
+        {
+            "name": "testClass",
+            "value": "ru.iteco.fmhandroid.ui.EditNewsPageTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "openAddNews"
+        },
+        {
+            "name": "suite",
+            "value": "Тесты страницы управления новостями"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(295)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        }
+    ]
+}

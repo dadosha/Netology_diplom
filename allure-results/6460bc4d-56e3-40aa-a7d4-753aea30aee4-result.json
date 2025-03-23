@@ -1,0 +1,149 @@
+{
+    "name": "Ошибка при попытке входа без данных",
+    "start": 1742751568593,
+    "stop": 1742751575707,
+    "stage": "finished",
+    "description": "Проверяет, что если пользователь пытается войти в систему без ввода логина и пароля, появится сообщение об ошибке.",
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+        {
+            "name": "Проверяем залогинены ли сейчас",
+            "start": 1742751569215,
+            "stop": 1742751569215,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Логинемся в профиле - ",
+            "start": 1742751575022,
+            "stop": 1742751575022,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Заполняем поле логина",
+            "start": 1742751575022,
+            "stop": 1742751575022,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Заполняем поле пароля",
+            "start": 1742751575052,
+            "stop": 1742751575053,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Нажимаем кнопку логина",
+            "start": 1742751575079,
+            "stop": 1742751575080,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Получаем ссылку на текст с ошибкой при пустых данных авторизации",
+            "start": 1742751575444,
+            "stop": 1742751575445,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        }
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "6460bc4d-56e3-40aa-a7d4-753aea30aee4",
+    "historyId": "238c88dc64beeeecfefdd9aebb0796a8",
+    "fullName": "ru.iteco.fmhandroid.ui.LoginPageTest.testEmptyDataLogin",
+    "labels": [
+        {
+            "name": "package",
+            "value": "ru.iteco.fmhandroid.ui"
+        },
+        {
+            "name": "testClass",
+            "value": "ru.iteco.fmhandroid.ui.LoginPageTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "testEmptyDataLogin"
+        },
+        {
+            "name": "suite",
+            "value": "Тесты страницы логина"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(295)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        }
+    ]
+}

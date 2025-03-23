@@ -17,7 +17,12 @@ android {
         targetSdkVersion 32
         versionCode 14
         versionName "1.0.0"
-        testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        testInstrumentationRunnerArguments = [
+                "allure.results.directory": "/sdcard/allure-results/",
+                "clearPackageData": "true"
+        ]
     }
 
     compileOptions {
@@ -46,7 +51,6 @@ android {
 }
 
 dependencies {
-    androidTestImplementation 'androidx.test.espresso:espresso-contrib:3.7.0-alpha01'
     def retrofit_version = "2.9.0"
     def retrofit_gson_version = "2.9.0"
     def okhttp_logging_version = "4.9.2"
@@ -61,7 +65,6 @@ dependencies {
     def hilt_version = '2.41'
     def gson_version = '2.9.0'
     def swipe_refresh_version = '1.1.0'
-    def espresso_version = '3.6.0'
 
     implementation 'androidx.core:core-ktx:1.7.0'
     implementation 'androidx.appcompat:appcompat:1.4.1'
@@ -92,13 +95,14 @@ dependencies {
     implementation platform('com.google.firebase:firebase-bom:29.0.3')
     implementation 'com.google.firebase:firebase-analytics-ktx'
     implementation 'com.google.firebase:firebase-crashlytics-ktx'
-    implementation 'androidx.test.espresso:espresso-idling-resource:3.5.1'
+    implementation 'androidx.test.espresso:espresso-idling-resource:3.6.0'
 
     // Espresso Core
-    androidTestImplementation "androidx.test.espresso:espresso-core:3.7.0-alpha01"
+    androidTestImplementation "androidx.test.espresso:espresso-core:3.6.0"
+    androidTestImplementation 'androidx.test.espresso:espresso-contrib:3.6.0'
 
     // Espresso Intents
-    androidTestImplementation "androidx.test.espresso:espresso-intents:$espresso_version"
+    androidTestImplementation "androidx.test.espresso:espresso-intents:3.6.0"
 
     // JUnit 4 (для UI-тестов)
     testImplementation 'junit:junit:4.13.2'

@@ -1,0 +1,197 @@
+{
+    "name": "Обновление страницы новостей",
+    "start": 1742751715148,
+    "stop": 1742751725969,
+    "stage": "finished",
+    "description": "Фильтруем новости по будущей дате, проверяем, что список пуст, затем обновляем страницу.",
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+        {
+            "name": "Проверяем залогинены ли сейчас",
+            "start": 1742751715786,
+            "stop": 1742751715786,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Открываем выпадающий список",
+            "start": 1742751720801,
+            "stop": 1742751720801,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Нажимаем кнопку открытия страницы всех новостей",
+            "start": 1742751721239,
+            "stop": 1742751721240,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Открытие страницы фильтров для новостей",
+            "start": 1742751721953,
+            "stop": 1742751721953,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Выбираем начальную дату для фильтра - 23.03.2026",
+            "start": 1742751722496,
+            "stop": 1742751722497,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Выбираем конечную дату для фильтра - 23.03.2026",
+            "start": 1742751723615,
+            "stop": 1742751723615,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Применяем настроенный фильтр",
+            "start": 1742751724696,
+            "stop": 1742751724697,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Проверяем наличие текста об отсутствие новостей",
+            "start": 1742751725154,
+            "stop": 1742751725155,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Нажимаем кнопку перезагрузки новостей",
+            "start": 1742751725165,
+            "stop": 1742751725165,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        }
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "7c1014c4-fd8c-4a1d-b5a6-dd7169ef0035",
+    "historyId": "f3294651b61cd093cbde5a91c63c10ee",
+    "fullName": "ru.iteco.fmhandroid.ui.NewsPageTest.refreshPage",
+    "labels": [
+        {
+            "name": "package",
+            "value": "ru.iteco.fmhandroid.ui"
+        },
+        {
+            "name": "testClass",
+            "value": "ru.iteco.fmhandroid.ui.NewsPageTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "refreshPage"
+        },
+        {
+            "name": "suite",
+            "value": "Тесты страницы новостей"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(295)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        }
+    ]
+}

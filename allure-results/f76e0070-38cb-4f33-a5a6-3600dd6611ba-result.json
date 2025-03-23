@@ -1,0 +1,101 @@
+{
+    "name": "Проверка наличия заголовка в карточке миссии",
+    "start": 1742751785959,
+    "stop": 1742751792444,
+    "stage": "finished",
+    "description": "Выбирает случайную карточку миссии и проверяет, что у неё есть заголовок.",
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+        {
+            "name": "Проверяем залогинены ли сейчас",
+            "start": 1742751786541,
+            "stop": 1742751786541,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Открытие страницы миссии приложения",
+            "start": 1742751791557,
+            "stop": 1742751791558,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Проверяем наличие заголовка у миссии",
+            "start": 1742751792125,
+            "stop": 1742751792125,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        }
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "f76e0070-38cb-4f33-a5a6-3600dd6611ba",
+    "historyId": "8e5e3b265350549dfec9c60df9497ff7",
+    "fullName": "ru.iteco.fmhandroid.ui.OurMissionPageTest.missionCardHaveTitle",
+    "labels": [
+        {
+            "name": "package",
+            "value": "ru.iteco.fmhandroid.ui"
+        },
+        {
+            "name": "testClass",
+            "value": "ru.iteco.fmhandroid.ui.OurMissionPageTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "missionCardHaveTitle"
+        },
+        {
+            "name": "suite",
+            "value": "Тесты страницы миссии"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(295)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        }
+    ]
+}

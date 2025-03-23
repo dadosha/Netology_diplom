@@ -5,6 +5,7 @@ import static androidx.test.espresso.Espresso.onView;
 import static androidx.test.espresso.action.ViewActions.click;
 import static androidx.test.espresso.action.ViewActions.swipeDown;
 import static androidx.test.espresso.assertion.ViewAssertions.matches;
+import static androidx.test.espresso.matcher.RootMatchers.isDialog;
 import static androidx.test.espresso.matcher.ViewMatchers.hasDescendant;
 import static androidx.test.espresso.matcher.ViewMatchers.hasSibling;
 import static androidx.test.espresso.matcher.ViewMatchers.isDescendantOfA;
@@ -150,7 +151,8 @@ public class EditNewsPage {
         )).check(matches(isDisplayed()))
                 .perform(click());
 
-        onView(withText(getSystemPositiveButtonText()))
+        onView(withId(android.R.id.button1)) // "OK", "Да", "Aceptar"
+                .inRoot(isDialog())
                 .perform(click());
     }
 

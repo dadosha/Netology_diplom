@@ -1,0 +1,133 @@
+{
+    "name": "Проверка наличия изображения в карточке новости",
+    "start": 1742751748905,
+    "stop": 1742751756096,
+    "stage": "finished",
+    "description": "Открываем страницу новостей, выбираем случайную карточку и проверяем, что у неё есть изображение.",
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+        {
+            "name": "Проверяем залогинены ли сейчас",
+            "start": 1742751749558,
+            "stop": 1742751749559,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Открываем выпадающий список",
+            "start": 1742751754575,
+            "stop": 1742751754575,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Нажимаем кнопку открытия страницы всех новостей",
+            "start": 1742751755055,
+            "stop": 1742751755056,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Проверяем наличие отображаемых новостей",
+            "start": 1742751755744,
+            "stop": 1742751755744,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Проверяем наличие картинки у новости",
+            "start": 1742751755766,
+            "stop": 1742751755766,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        }
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "1da42fb6-d70d-4dec-adab-1a22fea50b8d",
+    "historyId": "bf550c4b03abcdae313d4b941c1e5619",
+    "fullName": "ru.iteco.fmhandroid.ui.NewsPageTest.newsCardHaveImage",
+    "labels": [
+        {
+            "name": "package",
+            "value": "ru.iteco.fmhandroid.ui"
+        },
+        {
+            "name": "testClass",
+            "value": "ru.iteco.fmhandroid.ui.NewsPageTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "newsCardHaveImage"
+        },
+        {
+            "name": "suite",
+            "value": "Тесты страницы новостей"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(295)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        }
+    ]
+}

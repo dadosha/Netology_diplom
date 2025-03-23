@@ -1,0 +1,149 @@
+{
+    "name": "Открытие главной страницы из страницы новостей",
+    "start": 1742751598706,
+    "stop": 1742751607101,
+    "stage": "finished",
+    "description": "Проверяет, что можно вернуться на главную страницу, находясь на странице новостей.",
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+        {
+            "name": "Проверяем залогинены ли сейчас",
+            "start": 1742751599359,
+            "stop": 1742751599359,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Открываем выпадающий список",
+            "start": 1742751604375,
+            "stop": 1742751604376,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Нажимаем кнопку открытия страницы всех новостей",
+            "start": 1742751604862,
+            "stop": 1742751604862,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Открываем выпадающий список",
+            "start": 1742751605569,
+            "stop": 1742751605570,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Нажимаем кнопку открытия главной страницы",
+            "start": 1742751606096,
+            "stop": 1742751606096,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Проверяем наличие кнопки всех новостей",
+            "start": 1742751606793,
+            "stop": 1742751606793,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        }
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "bc63eada-3b0b-4dd6-b46d-455f68c1bc3c",
+    "historyId": "62ef675a9d52de26f41b664d285fe1a6",
+    "fullName": "ru.iteco.fmhandroid.ui.NavigationAndTopBarTest.openMainPage",
+    "labels": [
+        {
+            "name": "package",
+            "value": "ru.iteco.fmhandroid.ui"
+        },
+        {
+            "name": "testClass",
+            "value": "ru.iteco.fmhandroid.ui.NavigationAndTopBarTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "openMainPage"
+        },
+        {
+            "name": "suite",
+            "value": "Тесты верхнего меню приложения"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(295)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        }
+    ]
+}

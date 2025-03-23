@@ -1,0 +1,133 @@
+{
+    "name": "Разворачивание и скрытие списка новостей",
+    "start": 1742751585185,
+    "stop": 1742751591953,
+    "stage": "finished",
+    "description": "Проверяет, что список новостей можно развернуть и свернуть, и что состояние корректно меняется.",
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+        {
+            "name": "Проверяем залогинены ли сейчас",
+            "start": 1742751585925,
+            "stop": 1742751585925,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Кликаем на кнопку раскрытия/скрытия списка новостей не главной",
+            "start": 1742751590941,
+            "stop": 1742751590941,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Проверяем отсутствие кнопки всех новостей",
+            "start": 1742751591270,
+            "stop": 1742751591270,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Кликаем на кнопку раскрытия/скрытия списка новостей не главной",
+            "start": 1742751591280,
+            "stop": 1742751591280,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Проверяем наличие кнопки всех новостей",
+            "start": 1742751591629,
+            "stop": 1742751591629,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        }
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "f2163a69-38a4-481f-ab52-c2cb3bd1b498",
+    "historyId": "df533a8a4e581d539bcb427856bed058",
+    "fullName": "ru.iteco.fmhandroid.ui.MainPageTest.expandAndHideNewsList",
+    "labels": [
+        {
+            "name": "package",
+            "value": "ru.iteco.fmhandroid.ui"
+        },
+        {
+            "name": "testClass",
+            "value": "ru.iteco.fmhandroid.ui.MainPageTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "expandAndHideNewsList"
+        },
+        {
+            "name": "suite",
+            "value": "Тесты главной страницы приложения"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(295)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        }
+    ]
+}

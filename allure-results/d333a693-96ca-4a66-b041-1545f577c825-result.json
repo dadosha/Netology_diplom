@@ -1,0 +1,133 @@
+{
+    "name": "Кнопка 'Назад' возвращает на главную страницу",
+    "start": 1742751627908,
+    "stop": 1742751635328,
+    "stage": "finished",
+    "description": "Проверяет, что после открытия страницы 'О приложении' и нажатия 'Назад', происходит возврат на главную страницу.",
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+        {
+            "name": "Проверяем залогинены ли сейчас",
+            "start": 1742751628557,
+            "stop": 1742751628558,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Открываем выпадающий список",
+            "start": 1742751633572,
+            "stop": 1742751633572,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Нажимаем кнопку открытия страницы о приложении",
+            "start": 1742751634045,
+            "stop": 1742751634045,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Возврат на страницу назад со страницы 'О приложении'",
+            "start": 1742751634401,
+            "stop": 1742751634401,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Проверяем наличие кнопки всех новостей",
+            "start": 1742751634964,
+            "stop": 1742751634964,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        }
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "d333a693-96ca-4a66-b041-1545f577c825",
+    "historyId": "1a8c5988ad2f97446f1f0611f0c25d18",
+    "fullName": "ru.iteco.fmhandroid.ui.NavigationAndTopBarTest.clickBackButtonStartMainPage",
+    "labels": [
+        {
+            "name": "package",
+            "value": "ru.iteco.fmhandroid.ui"
+        },
+        {
+            "name": "testClass",
+            "value": "ru.iteco.fmhandroid.ui.NavigationAndTopBarTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "clickBackButtonStartMainPage"
+        },
+        {
+            "name": "suite",
+            "value": "Тесты верхнего меню приложения"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(295)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        }
+    ]
+}

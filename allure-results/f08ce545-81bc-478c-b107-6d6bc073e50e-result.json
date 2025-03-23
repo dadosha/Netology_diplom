@@ -1,0 +1,101 @@
+{
+    "name": "Открытие страницы 'Наша миссия'",
+    "start": 1742751621137,
+    "stop": 1742751627857,
+    "stage": "finished",
+    "description": "Проверяет, что можно открыть страницу 'Наша миссия' через верхнее меню.",
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+        {
+            "name": "Проверяем залогинены ли сейчас",
+            "start": 1742751621867,
+            "stop": 1742751621867,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Открытие страницы миссии приложения",
+            "start": 1742751626882,
+            "stop": 1742751626882,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Проверяем наличие заголовка страницы целей",
+            "start": 1742751627505,
+            "stop": 1742751627505,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        }
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "f08ce545-81bc-478c-b107-6d6bc073e50e",
+    "historyId": "a845d75b4bd068f872c6dd64327ffec",
+    "fullName": "ru.iteco.fmhandroid.ui.NavigationAndTopBarTest.openOurMissionPage",
+    "labels": [
+        {
+            "name": "package",
+            "value": "ru.iteco.fmhandroid.ui"
+        },
+        {
+            "name": "testClass",
+            "value": "ru.iteco.fmhandroid.ui.NavigationAndTopBarTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "openOurMissionPage"
+        },
+        {
+            "name": "suite",
+            "value": "Тесты верхнего меню приложения"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(295)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        }
+    ]
+}

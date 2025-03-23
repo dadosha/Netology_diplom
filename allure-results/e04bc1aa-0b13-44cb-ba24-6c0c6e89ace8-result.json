@@ -1,0 +1,85 @@
+{
+    "name": "Проверка отображения экрана запуска",
+    "start": 1742751792620,
+    "stop": 1742751793526,
+    "stage": "finished",
+    "description": "Проверяем, что экран загрузки отображается и содержит один из ожидаемых текстов.",
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+        {
+            "name": "Находим поле текстов на экране заставки",
+            "start": 1742751793194,
+            "stop": 1742751793194,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Проверяем, что текст в поле один из заложенных",
+            "start": 1742751793230,
+            "stop": 1742751793231,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        }
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "e04bc1aa-0b13-44cb-ba24-6c0c6e89ace8",
+    "historyId": "29edce3c1ff9dabef81e05ff3822ac2c",
+    "fullName": "ru.iteco.fmhandroid.ui.SplashScreenTest.splashScreenTest",
+    "labels": [
+        {
+            "name": "package",
+            "value": "ru.iteco.fmhandroid.ui"
+        },
+        {
+            "name": "testClass",
+            "value": "ru.iteco.fmhandroid.ui.SplashScreenTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "splashScreenTest"
+        },
+        {
+            "name": "suite",
+            "value": "Тест экрана запуска приложения"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(295)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        }
+    ]
+}

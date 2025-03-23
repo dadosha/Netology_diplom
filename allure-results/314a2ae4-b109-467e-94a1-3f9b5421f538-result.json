@@ -1,0 +1,101 @@
+{
+    "name": "Проверка наличия заголовка в карточке новости",
+    "start": 1742751672438,
+    "stop": 1742751678424,
+    "stage": "finished",
+    "description": "Выбирает случайную карточку новости и проверяет, что у неё есть заголовок.",
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+        {
+            "name": "Проверяем залогинены ли сейчас",
+            "start": 1742751673078,
+            "stop": 1742751673078,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Проверяем наличие отображаемых новостей",
+            "start": 1742751678093,
+            "stop": 1742751678094,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Проверяем наличие заголовка у новости",
+            "start": 1742751678113,
+            "stop": 1742751678114,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        }
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "314a2ae4-b109-467e-94a1-3f9b5421f538",
+    "historyId": "6207ad1119058ae0c2b3e6079cad0e6e",
+    "fullName": "ru.iteco.fmhandroid.ui.NewsCardTest.newsCardHaveTitle",
+    "labels": [
+        {
+            "name": "package",
+            "value": "ru.iteco.fmhandroid.ui"
+        },
+        {
+            "name": "testClass",
+            "value": "ru.iteco.fmhandroid.ui.NewsCardTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "newsCardHaveTitle"
+        },
+        {
+            "name": "suite",
+            "value": "Карточки новостей"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(295)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        }
+    ]
+}

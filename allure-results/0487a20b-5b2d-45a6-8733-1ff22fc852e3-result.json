@@ -1,0 +1,101 @@
+{
+    "name": "Проверка наличия изображения в карточке новости",
+    "start": 1742751666322,
+    "stop": 1742751672365,
+    "stage": "finished",
+    "description": "Выбирает случайную карточку новости и проверяет, что у неё есть изображение.",
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+        {
+            "name": "Проверяем залогинены ли сейчас",
+            "start": 1742751666983,
+            "stop": 1742751666984,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Проверяем наличие отображаемых новостей",
+            "start": 1742751672003,
+            "stop": 1742751672003,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Проверяем наличие картинки у новости",
+            "start": 1742751672022,
+            "stop": 1742751672022,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        }
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "0487a20b-5b2d-45a6-8733-1ff22fc852e3",
+    "historyId": "4b934b4e5b8c2bb9bec85855284ec3fc",
+    "fullName": "ru.iteco.fmhandroid.ui.NewsCardTest.newsCardHaveImage",
+    "labels": [
+        {
+            "name": "package",
+            "value": "ru.iteco.fmhandroid.ui"
+        },
+        {
+            "name": "testClass",
+            "value": "ru.iteco.fmhandroid.ui.NewsCardTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "newsCardHaveImage"
+        },
+        {
+            "name": "suite",
+            "value": "Карточки новостей"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(295)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        }
+    ]
+}

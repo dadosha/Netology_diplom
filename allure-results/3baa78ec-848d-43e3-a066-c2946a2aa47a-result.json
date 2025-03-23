@@ -1,0 +1,117 @@
+{
+    "name": "Открытие страницы 'О приложении'",
+    "start": 1742751607170,
+    "stop": 1742751614026,
+    "stage": "finished",
+    "description": "Проверяет, что после нажатия на 'О приложении' в верхнем меню происходит переход на соответствующую страницу.",
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+        {
+            "name": "Проверяем залогинены ли сейчас",
+            "start": 1742751607815,
+            "stop": 1742751607815,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Открываем выпадающий список",
+            "start": 1742751612832,
+            "stop": 1742751612832,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Нажимаем кнопку открытия страницы о приложении",
+            "start": 1742751613301,
+            "stop": 1742751613301,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Проверяем отображение ссылки 'Политика конфиденциальности'",
+            "start": 1742751613662,
+            "stop": 1742751613662,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        }
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "3baa78ec-848d-43e3-a066-c2946a2aa47a",
+    "historyId": "31eb7afc868fc3e54ff5cc0279ea203a",
+    "fullName": "ru.iteco.fmhandroid.ui.NavigationAndTopBarTest.openAboutPage",
+    "labels": [
+        {
+            "name": "package",
+            "value": "ru.iteco.fmhandroid.ui"
+        },
+        {
+            "name": "testClass",
+            "value": "ru.iteco.fmhandroid.ui.NavigationAndTopBarTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "openAboutPage"
+        },
+        {
+            "name": "suite",
+            "value": "Тесты верхнего меню приложения"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(295)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        }
+    ]
+}

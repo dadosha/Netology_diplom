@@ -1,0 +1,53 @@
+{
+    "name": "Проверка корректного названия пакета",
+    "start": 1742751792507,
+    "stop": 1742751792556,
+    "stage": "finished",
+    "description": "Получаем `appContext` и проверяем, что название пакета соответствует `ru.iteco.fmhandroid`.",
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "82889fdd-f101-40b6-a95f-de6b97f54424",
+    "historyId": "2ea0a8e3c2148f13cfe2e1d5310f16be",
+    "fullName": "ru.iteco.fmhandroid.ui.PackageNameTest.useAppContext",
+    "labels": [
+        {
+            "name": "package",
+            "value": "ru.iteco.fmhandroid.ui"
+        },
+        {
+            "name": "testClass",
+            "value": "ru.iteco.fmhandroid.ui.PackageNameTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "useAppContext"
+        },
+        {
+            "name": "suite",
+            "value": "Тест названия пакета приложения"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(295)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        }
+    ]
+}

@@ -7,6 +7,7 @@ import static androidx.test.espresso.action.ViewActions.replaceText;
 import static androidx.test.espresso.assertion.ViewAssertions.matches;
 import static androidx.test.espresso.contrib.PickerActions.setDate;
 import static androidx.test.espresso.contrib.PickerActions.setTime;
+import static androidx.test.espresso.matcher.RootMatchers.isDialog;
 import static androidx.test.espresso.matcher.ViewMatchers.isDescendantOfA;
 import static androidx.test.espresso.matcher.ViewMatchers.isDisplayed;
 import static androidx.test.espresso.matcher.ViewMatchers.isRoot;
@@ -147,7 +148,8 @@ public class AddNewsPage {
                 .check(matches(isDisplayed()))
                 .perform(click());
 
-        onView(withText(getSystemPositiveButtonText()))
+        onView(withId(android.R.id.button1)) // "OK", "Да", "Aceptar"
+                .inRoot(isDialog())
                 .perform(click());
     }
 
