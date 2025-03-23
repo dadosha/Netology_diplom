@@ -6,9 +6,7 @@
 3. [Тест-кейсы](docs/Case.xlsx)
 
 ## Результаты
-1. Allure отчеты
-    1.1. [zip-файл](docs/allure-result.zip)
-    1.2. [allure-result](allure-results) - запуск результатов из allure отчета - allure serve allure-results
+1. Allure отчеты [zip-файл](docs/allure-result.zip), [allure-result](allure-results) - запуск результатов из allure отчета - allure serve allure-results
 2. Сравнение времени выполнения - [Result.md](docs/Result.md)
 
 ## Запуск тестов
